@@ -1,0 +1,10 @@
+[
+	{"Name": "Sword",
+	"Id": 1,
+	"Description":"Texts/Itens/Knife.txt",
+	"ImagePath":"Images/Inventory/Knife",
+	"IsStackable":false,
+	"MaxDuration":100,
+	"Damage": 5,
+	"Value": "10.0"}
+]

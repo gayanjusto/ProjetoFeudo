@@ -1,0 +1,51 @@
+[
+  {
+    SkillId: 1,
+	Name: "Bladed Weapons",
+  },
+  {
+    SkillId: 2,
+	Name: "Blunt Weapons",
+  },
+  {
+    SkillId: 3,
+	Name: "Archery"
+  },
+  {
+    SkillId: 4,
+	Name: "Defense"
+  },
+  {
+    SkillId: 5,
+	Name: "Healing",
+  },
+  {
+    SkillId: 6,
+	Name: "Music",
+  },
+  {
+    SkillId: 7,
+	Name: "Sorcery",
+  },
+  {
+    SkillId: 8,
+	Name: "History",
+  },
+  {
+    SkillId: 9,
+	Name: "Lockpicks",
+  },
+  {
+    SkillId: 10,
+	Name: "Stealing",
+  },
+  {
+    SkillId: 11,
+	Name: "Disguise",
+  },
+  {
+    SkillId: 12,
+	Name: "Traps",
+  },
+
+]

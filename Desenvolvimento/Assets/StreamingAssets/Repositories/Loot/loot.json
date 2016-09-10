@@ -1,0 +1,38 @@
+[
+	{
+		LootId: "loot00000001",
+		LootItemIdentifiers: 
+			[
+				{
+					ItemId: "chm0001",
+					ItemType: "Armor"
+				},
+				{
+					ItemId: "bow0001",
+					ItemType: "Weapon"
+				},
+				 {
+					ItemId: "dag0001",
+					ItemType: "Weapon"
+				},
+			]
+    },
+	{
+		LootId: "loot00000002",
+		LootItemIdentifiers: 
+			[
+				{
+					ItemId: "chm0001",
+					ItemType: "Armor"
+				},
+				{
+					ItemId: "bow0001",
+					ItemType: "Weapon"
+				},
+				 {
+					ItemId: "dag0001",
+					ItemType: "Weapon"
+				},
+			]
+    },
+]

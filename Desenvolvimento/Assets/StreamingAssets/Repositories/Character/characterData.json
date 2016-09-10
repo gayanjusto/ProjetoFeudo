@@ -1,0 +1,78 @@
+{
+  "Name": "Jao Testes",
+  "Age": 25,
+  "Strength": 0,
+  "Dexterity": 0,
+  "Intelligence": 0,
+  "Gender": true,
+  "HairStyleId": "har0001",
+  "HairColor": "0.4313726;0.3215686;0.1764706",
+  "SkinColor": "0.9607843;0.9372549;0.7686275",
+  "Class": {
+    "ClassId": 2,
+    "ClassName": "WiseClass",
+    "ClassSkills": null
+  },
+  "Skills": [
+    {
+      "SkillId": 1,
+      "Name": "Bladed Weapons",
+      "Points": 3
+    },
+    {
+      "SkillId": 2,
+      "Name": "Blunt Weapons",
+      "Points": 3
+    },
+    {
+      "SkillId": 3,
+      "Name": "Archery",
+      "Points": 3
+    },
+    {
+      "SkillId": 4,
+      "Name": "Defense",
+      "Points": 3
+    },
+    {
+      "SkillId": 5,
+      "Name": "Healing",
+      "Points": 5
+    },
+    {
+      "SkillId": 6,
+      "Name": "Music",
+      "Points": 4
+    },
+    {
+      "SkillId": 7,
+      "Name": "Sorcery",
+      "Points": 3
+    },
+    {
+      "SkillId": 8,
+      "Name": "History",
+      "Points": 2
+    },
+    {
+      "SkillId": 9,
+      "Name": "Lockpicks",
+      "Points": 0
+    },
+    {
+      "SkillId": 10,
+      "Name": "Stealing",
+      "Points": 0
+    },
+    {
+      "SkillId": 11,
+      "Name": "Disguise",
+      "Points": 0
+    },
+    {
+      "SkillId": 12,
+      "Name": "Traps",
+      "Points": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+	{
+		"Id": "chm0001",
+		"Name": "Chainmail Chest",
+		"Type": "Armor",
+		"Description":"A tunic made of chainmail",
+		"ImagePath":"Images/Armor/ChainmailChest",
+		"IsStackable":false,
+		"MaxDuration":100,
+		"Protection": 10,
+		"Value": 10.0,
+		"ParentPartId": null,
+		"Damage": null,
+		"ItemMaterial": "Metal",
+		"ItemBodyPart": "Chest",
+		"ItemResourcesPath": "ChainmailChest"
+	},
+	
+]
