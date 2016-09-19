@@ -32,12 +32,16 @@ namespace Assets.Scripts.Managers.CharacterCreation
         private IList<Color> skinColorList;
         private int currentSkinColorIndex;
 
+        private IGenderCreationManager genderCreationManager;
+
         private IEquippableItemDAO equippableItemDAO;
         private IAnimationService animationService;
         private IColorService colorService;
 
 
         void Start() {
+            genderCreationManager = this.GetComponent<IGenderCreationManager>();
+
             playerObject = GameObject.Find("CharacterCreationAvatar");
             playerBodyRenderersList = new List<SpriteRenderer>();
             GetPlayerBodyRenderers();
@@ -45,7 +49,7 @@ namespace Assets.Scripts.Managers.CharacterCreation
             animationService = animationService ?? new AnimationService();
             equippableItemDAO = equippableItemDAO ?? new EquippableItemDAO();
             colorService = colorService ?? new ColorService();
-
+            
             hairList = equippableItemDAO.GetAllFromSpecificFile("hair", ".json").ToList();
 
             hairColorList = colorService.GetHairColorList();
@@ -54,6 +58,8 @@ namespace Assets.Scripts.Managers.CharacterCreation
             currentHairColorIndex = 0;
             currentSkinColorIndex = 0;
             currentHairIndex = 0;
+
+            LoadHairByGender(genderCreationManager.GetGender());
         }
 
         void GetPlayerBodyRenderers() {
